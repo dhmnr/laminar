@@ -17,10 +17,11 @@ name:               laminar
 version:            0.1.0.0
 
 -- A short (one-line) description of the package.
-synopsis:
+synopsis:            Run dependent IO actions asynchronously.
 
--- A longer description of the package.
--- description:
+description:
+ This package provides simple interface for 
+ running IO actions having inter dependencies.
 
 -- URL for the project homepage or repository.
 homepage:
@@ -35,23 +36,24 @@ license:            MIT
 license-file:       LICENSE
 
 -- The package author(s).
-author:             DM
+author:             Dheemanth Manur
 
 -- An email address to which users can send suggestions, bug reports, and patches.
 maintainer:         dheemanthmanur72@gmail.com
 
 -- A copyright notice.
--- copyright:
--- category:
+copyright:           (c) Dheemanth Manur 2022
+category:            Concurrency
 
 -- Extra files to be distributed with the package, such as examples or a README.
 extra-source-files: CHANGELOG.md
+source-repository head
+    type: git
+    location: https://github.com/Daem0n-th/laminar.git
 
 library
     -- Modules exported by the library.
-    exposed-modules:  Laminar,
-                      Laminar.Internal
-
+    exposed-modules:  Laminar
     -- Modules included in this library but not exported.
     -- other-modules:
 
