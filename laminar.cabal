@@ -81,10 +81,13 @@ test-suite laminar-test
     type:             exitcode-stdio-1.0
 
     -- Directories containing source files.
-    hs-source-dirs:   test
+    hs-source-dirs:   tests
 
     -- The entrypoint to the test suite.
-    main-is:          MyLibTest.hs
+    main-is:          test.hs
 
     -- Test dependencies.
-    build-depends:    base ^>=4.14.3.0
+    build-depends:    base ^>=4.14.3.0,
+                      tasty-hunit,
+                      laminar,
+                      tasty
