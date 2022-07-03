@@ -81,8 +81,8 @@ A small library used to run dependent tasks asynchronously.
 
 ## Roadmap
 
+- [ ] Add Examples
 - [ ] Add tests
-- [ ] Improve documentation
 - [ ] Report cyclical dependencies
 - [ ] Graphical DAG output
 <!-- - [ ] Allow tasks to pass infromation to each other -->
